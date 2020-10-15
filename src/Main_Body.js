@@ -25,6 +25,9 @@ function MainBody() {
         <div className="main_body">
           <BrowserRouter>
             <Switch>
+              <Route path="/" exact>
+                <Sidebarclone />
+              </Route>
               <Route path="/rooms" exact>
                 <Sidebarclone />
               </Route>

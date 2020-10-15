@@ -2,23 +2,21 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAg3MzNLytBLwuohCFEblwO5FxiZRT81Js",
-    authDomain: "whatsapp-clone-aae9e.firebaseapp.com",
-    databaseURL: "https://whatsapp-clone-aae9e.firebaseio.com",
-    projectId: "whatsapp-clone-aae9e",
-    storageBucket: "whatsapp-clone-aae9e.appspot.com",
-    messagingSenderId: "150231501913",
-    appId: "1:150231501913:web:5e406238688f62b84cf548",
-    measurementId: "G-7EK9DQ0T0W"
-  };
-  const firebaseapp = firebase.initializeApp(firebaseConfig)
-  const db = firebaseapp.firestore()
-  const auth = firebaseapp.auth()
-  const provider = new firebase.auth.GoogleAuthProvider();
-  export {auth, provider}
-  export default db
-
-
+  apiKey: "AIzaSyAg3MzNLytBLwuohCFEblwO5FxiZRT81Js",
+  authDomain: "whatsapp-clone-aae9e.firebaseapp.com",
+  databaseURL: "https://whatsapp-clone-aae9e.firebaseio.com",
+  projectId: "whatsapp-clone-aae9e",
+  storageBucket: "whatsapp-clone-aae9e.appspot.com",
+  messagingSenderId: "150231501913",
+  appId: "1:150231501913:web:6f23214dc3739c234cf548",
+  measurementId: "G-X4J3PYNB13",
+};
+const firebaseapp = firebase.initializeApp(firebaseConfig);
+const db = firebaseapp.firestore();
+const auth = firebaseapp.auth();
+const provider = new firebase.auth.GoogleAuthProvider();
+export { auth, provider };
+export default db;
 
 //   import React,{useEffect, useState} from "react";
 // import "./sidebar.css";
@@ -38,7 +36,7 @@ const firebaseConfig = {
 //         }
 //       )))
 //     })
-   
+
 //   }, [])
 //   return (
 //     <div className="sidebar">
