@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+ou can view the app at http://vishrudhrajrs.github.io/whatsapp-clone
+
 ## Available Scripts
 
 In the project directory, you can run:
