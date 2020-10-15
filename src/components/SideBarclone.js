@@ -11,8 +11,6 @@ function Sidebar() {
   const [{ user }, dispatch] = useStateValue();
   const [rooms, setRooms] = useState([]);
   const [search, setsearch] = useState("");
-  const [sidechat, setsidechat] = useState("");
-  const [sidechat1, setsidechat1] = useState("");
   const signOut = () => {
     auth
       .signOut()
@@ -38,7 +36,7 @@ function Sidebar() {
     });
   }, []);
   return (
-    <div className="sidebar" style={{ display: sidechat }}>
+    <div className="sidebar1">
       <div className="sidebar_header">
         <Avatar className="size1" src={user?.photoURL} onClick={signOut} />
         <div className="sidebar_header_right">
